@@ -20,9 +20,12 @@ function businessDay(day){
     }
 }
 
+if (bussinesHour(10)===true && businessDay(5)===true){
+    console.log('Es día y horario laboral');
+} else {
+    console.log('No es día ni horario laboral');
+}
 
 
-// console.log(bussinesHour(8));
+// console.log(bussinesHour(10));
 // console.log(businessDay(5));
-
-
