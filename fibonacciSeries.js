@@ -1,8 +1,15 @@
 // Encontrar los primeros n elementos de la serie fibonacci
 // Usar recursion
-var fibonacci = [];
-fibonacci[0] = 0;
-fibonacci [1] = 1;
+
+
+function fibo (n){
+    return n<=1 ? n : fibo(n-1) + fibo(n - 2);
+    
+}
+
+console.log(fibo(10));
+
+
 
 
 
